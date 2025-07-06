@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--header section starts-->
+
+    <header class="header">
+     <!--   <a href="index.html"class="logo"><i class="fas fa-book"></i>LearnX</a>
+        <nav class="navbar">
+            <a href="index.html" class="hover-underline">Home</a>
+            <a href="about.html" class="hover-underline">About</a>
+            <a href="#Study Material" class="hover-underline">Study Material</a>
+            <a href="#Guides" class="hover-underline">Guides</a>
+            <a href="contact.php" class="hover-underline">Contact</a>
+        </nav>-->
+
+        <div class="icons">
+            <div id="login-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <!-- login form -->
+        
+        <form action="login.php" method="POST" class="login-form">
+            <h3>Login Form</h3>
+            
+            <input type="email" name="email" placeholder="Email" class="box" required>
+            <input type="password" name="password" placeholder="Password" class="box" required>
+            
+            <button type="submit" class="btn">
+                <span class="text text-1">Login Now</span>
+                <span class="text text-2" aria-hidden="true">Login Now</span>
+            </button>
+            
+            <p>Don't have an account? <a href="register.html">Register Now</a></p>
+        </form>
+        
+        </header>
+
+    <section class="About" id="About">
+        <h1 class="heading">About</h1>
+        <div class="container">
+            <figure class="About-image">
+                <img src="images/About page.jpg" alt="About" height="500">
+            </figure>
+            <div class="About-content">
+                <h3>WELCOME TO LearnX</h3>
+                <p>LearnX is a simple and interactive learning platform designed for software development students. Our platform provides easy access to study materials and enables students to contact teachers for resolving doubts.
+                    We aim to make learning structured, engaging, and organized. Whether you're a beginner or an advanced student, LearnX helps you grow in software development with well-structured study resources. LearnX also offers a seamless way for students to connect with teachers, ensuring that doubts are resolved quickly and efficiently. This feature helps students gain clarity on complex topics and continue learning without interruptions.</p>
+                <a href="index.html" class="btn">
+                    <span class="text text-1">Back to Home</span>
+                    <span class="text text-2" aria-hidden="true">Back to Home</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
